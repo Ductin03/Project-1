@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tiêu đề....</title>
+    </head>
+    
+       <video width="300" height="250" controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <br>
+        <audio controls>
+            <source src="">
+        </audio>
+        <br>
+        <!-- xác định bảng -->
+        <table> 
+            <thead>
+                <tr>
+                    <!-- xác định dữ liệu tiêu đề của bảng -->
+                    <th>dòng 1 cột 1</th>
+                    <th>dòng 1 cột 1</th>
+                    <th>dòng 1 cột 1</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <!-- cột -->
+                   <td colspan="3">A</td>
+                   <td rowspan="4">A</td>
+                   <!-- dòng -->
+                   <!-- td xác định ô dữ liệu -->
+                    <!-- <tr></tr> xác định 1 hàng của bảng -->
+                </tr>
+
+            </tbody>
+        </table>
+        <ol type="A">
+            <li>ádaa
+                <ol type="1">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+            </li>
+            <li>ádasd</li>
+            <li>ádadasd</li>
+        </ol> 
+
+        <!-- form thu nhập dữ liệu -->
+        <form action="https://www.w3schools.com/python/default.asp" method="post" target="_blank"
+        novalidate>
+            <!-- method post không hiện in4 lên url, _blank mở tab mới NOVALIDATE khoong kiểm tra tính chính xác-->
+            <label for="111">Họ Tên</label> 
+            <!-- đặt tên nhãn -->
+            <br>
+            <!-- br xuống hàng -->
+            <input type="text" name="Fullname" id="111">
+            <br>
+            <label for="222">Email</label>
+            <!-- for và id giá trị phải bằng nhau để liên kết -->
+            <br>
+            <input type="email" name="Gmail" id="222">
+            <br>
+            <label for="333">Mật khẩu</label>
+            <br>
+            <input type="password" name="pass" id="333">
+            <br>
+            <label for="444">Chọn tệp</label>
+            <br>
+            <input type="file" name="file" id="444">
+            <br>
+            <input type="submit" value="Gửi">
+            <br> <br> <br>
+            <label for="color">Chọn màu sắc</label>
+            <br>
+            <select id="color" name="mausac">
+                <!-- select hiển thị danh sách để chọn -->
+                <option value="Xanh ">Xanh </option>
+                <option value="Đỏ">Đỏ</option>
+                <option value="Trắng">Trắng</option>
+            </select>
+            <br>
+            <label for="note">Ghi chú</label>
+            <br>
+            <textarea name="Ghi chú" id="note" ></textarea>
+            <br>
+            <input type="submit" value="Gửi">
+            <br>
+            <p>Những Ngôn Ngữ Đã Học</p>
+            <br>
+            <input type="checkbox" name="Ngonngu" id="jv" value="Java">
+            <label for="jv">Java</label>
+            <br>
+            <input type="checkbox" name="Ngonngu" id="c" value="ngonnguC">
+            <label for="c">NGôn Ngữ C</label>   
+            <br>
+            <input type="checkbox" name="Ngonngu" id="nodejs" value="ngonngunode">
+            <label for="nodejs">Nodejs</label>
+            <br>
+            <input type="radio" name="Ngonngu" id="jv" value="Java">
+            <label for="jv">Java</label>
+            <br>
+            <input type="radio" name="Ngonngu" id="c" value="ngonnguC">
+            <label for="c">NGôn Ngữ C</label>   
+            <br>
+            <input type="radio" name="Ngonngu" id="nodejs" value="ngonngunode">
+            <label for="nodejs">Nodejs</label>
+            <br>
+            <input type="submit" value="Gửi">
+
+
+        </form>
+    
+    </body>
+
+</html>
